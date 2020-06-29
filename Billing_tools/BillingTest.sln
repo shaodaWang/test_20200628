@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BillingTest", "BillingTest\BillingTest.vcxproj", "{494F2B90-7247-4B44-9F10-A697DD235AAA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B5F6D17C-BD0C-45D3-BE4D-19BAAA21DEE9} = {B5F6D17C-BD0C-45D3-BE4D-19BAAA21DEE9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Billing_sdk", "Billing_sdk\Billing_sdk.vcxproj", "{B5F6D17C-BD0C-45D3-BE4D-19BAAA21DEE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{494F2B90-7247-4B44-9F10-A697DD235AAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{494F2B90-7247-4B44-9F10-A697DD235AAA}.Debug|Win32.Build.0 = Debug|Win32
+		{494F2B90-7247-4B44-9F10-A697DD235AAA}.Release|Win32.ActiveCfg = Release|Win32
+		{494F2B90-7247-4B44-9F10-A697DD235AAA}.Release|Win32.Build.0 = Release|Win32
+		{B5F6D17C-BD0C-45D3-BE4D-19BAAA21DEE9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5F6D17C-BD0C-45D3-BE4D-19BAAA21DEE9}.Debug|Win32.Build.0 = Debug|Win32
+		{B5F6D17C-BD0C-45D3-BE4D-19BAAA21DEE9}.Release|Win32.ActiveCfg = Release|Win32
+		{B5F6D17C-BD0C-45D3-BE4D-19BAAA21DEE9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08B3F8BA-2054-49A8-96C1-AC91DC91C87E}
+	EndGlobalSection
+EndGlobal
